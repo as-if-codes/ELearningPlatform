@@ -1,0 +1,546 @@
+CRITICAL - 2023-11-14 02:21:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\Users\Instructor\iModules.php on line 36.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(66): view('Users/Instructor/iModules', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 02:24:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InstructorC.php on line 14.
+ 1 APPPATH\Controllers\InstructorC.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\InstructorC.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 02:25:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->UHome()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 02:25:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InstructorC.php on line 14.
+ 1 APPPATH\Controllers\InstructorC.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\InstructorC.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 02:25:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InstructorC.php on line 14.
+ 1 APPPATH\Controllers\InstructorC.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\InstructorC.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 02:25:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->UHome()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 02:25:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InstructorC.php on line 14.
+ 1 APPPATH\Controllers\InstructorC.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\InstructorC.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 02:27:28 --> Call to a member function getName() on null
+in APPPATH\Controllers\InstructorC.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:26:21 --> Undefined variable $x
+in APPPATH\Views\Users\Instructor\iModules.php on line 63.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $x', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(36): view('Users/Instructor/iModules', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModule()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:49:26 --> Invalid file: Users/Student/sDashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Users/Student/sDashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Student/sDashboard.php', [], true)
+ 3 APPPATH\Controllers\Home.php(97): view('Users/Student/sDashboard.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->uLogin()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:02:39 --> Array to string conversion
+in APPPATH\Controllers\StudentC.php on line 15.
+ 1 APPPATH\Controllers\StudentC.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\StudentC.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->browsecourse()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:03:14 --> Array to string conversion
+in APPPATH\Controllers\StudentC.php on line 15.
+ 1 APPPATH\Controllers\StudentC.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\StudentC.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->browsecourse()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:21:30 --> Array to string conversion
+in APPPATH\Controllers\StudentC.php on line 28.
+ 1 APPPATH\Controllers\StudentC.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\StudentC.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->courseView()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:27:19 --> Undefined variable $courses
+in APPPATH\Views\Users\Student\sModules.php on line 40.
+ 1 APPPATH\Views\Users\Student\sModules.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courses', 'APPPATH\\Views\\Users\\Student\\sModules.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Student\\sModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Student/sModules', [], true)
+ 5 APPPATH\Controllers\StudentC.php(31): view('Users/Student/sModules', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->courseView()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:36:14 --> Cannot access offset of type string on string
+in APPPATH\Views\Users\Student\sModules.php on line 44.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Student/sModules', [], true)
+ 4 APPPATH\Controllers\StudentC.php(38): view('Users/Student/sModules', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->courseView()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:40:44 --> Undefined variable $course
+in APPPATH\Views\Users\Student\sModules.php on line 43.
+ 1 APPPATH\Views\Users\Student\sModules.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $course', 'APPPATH\\Views\\Users\\Student\\sModules.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Student\\sModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Student/sModules', [], true)
+ 5 APPPATH\Controllers\StudentC.php(38): view('Users/Student/sModules', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->courseView()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:55:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\Users\Student\sModules.php on line 44.
+ 1 APPPATH\Views\Users\Student\sModules.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Users\\Student\\sModules.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Student\\sModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Student/sModules', [], true)
+ 5 APPPATH\Controllers\StudentC.php(40): view('Users/Student/sModules', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->courseView()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 02:57:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\Users\Student\sModules.php on line 44.
+ 1 APPPATH\Views\Users\Student\sModules.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Users\\Student\\sModules.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Student\\sModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Student/sModules', [], true)
+ 5 APPPATH\Controllers\StudentC.php(41): view('Users/Student/sModules', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->courseView()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 03:08:05 --> mysqli_sql_exception: Table 'elearning.enrollments' doesn't exist in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `en...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\StudentC.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\StudentC->cEnroll()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 03:30:17 --> Unclosed '{' on line 10
+in APPPATH\Controllers\StudentC.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\StudentC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\StudentC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\StudentC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\StudentC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:30:32 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\StudentC.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\StudentC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\StudentC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\StudentC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\StudentC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 03:40:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`course_id`, `courses`.`course_title`, `courses`.`description`, `enrollment`...' at line 1 in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\StudentC.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 03:40:35 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\StudentC.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 03:40:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`course_id`, `courses`.`course_title`, `courses`.`description`, `enrollment`...' at line 1 in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\StudentC.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 03:40:48 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\StudentC.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 03:41:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`course_id`, `courses`.`course_title`, `courses`.`description`, `enrollment`...' at line 1 in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\StudentC.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 03:41:15 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\StudentC.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 03:41:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`course_id`, `courses`.`course_title`, `courses`.`description`, `enrollment`...' at line 1 in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\StudentC.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 03:41:18 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\StudentC.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 03:42:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`course_id`, `courses`.`course_title`, `courses`.`description`, `enrollment`...' at line 1 in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\StudentC.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 03:42:21 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\StudentC.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 03:42:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`course_id`, `courses`.`course_title`, `courses`.`description`, `enrollment`...' at line 1 in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\StudentC.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 03:42:27 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\StudentC.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 03:42:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`course_id`, `courses`.`course_title`, `courses`.`description`, `enrollment`...' at line 1 in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\StudentC.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 03:42:28 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\StudentC.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 03:43:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`course_id`, `courses`.`course_title`, `courses`.`description`, `enrollment`...' at line 1 in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\StudentC.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 03:43:18 --> Array to string conversion
+in APPPATH\Controllers\StudentC.php on line 88.
+ 1 APPPATH\Controllers\StudentC.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\StudentC.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 03:43:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`course_id`, `courses`.`course_title`, `courses`.`description`, `enrollment`...' at line 1 in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\StudentC.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 03:43:43 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\StudentC.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 03:44:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`course_id`, `courses`.`course_title`, `courses`.`description`, `enrollment`...' at line 1 in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\StudentC.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 03:44:56 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\StudentC.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 03:44:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`course_id`, `courses`.`course_title`, `courses`.`description`, `enrollment`...' at line 1 in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\StudentC.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 03:44:57 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\StudentC.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:47:53 --> Undefined property: App\Controllers\StudentC::$db
+in APPPATH\Controllers\StudentC.php on line 73.
+ 1 APPPATH\Controllers\StudentC.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\StudentC::$db', 'APPPATH\\Controllers\\StudentC.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:50:20 --> syntax error, unexpected variable "$userId", expecting ")"
+in APPPATH\Controllers\StudentC.php on line 77.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\StudentC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\StudentC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\StudentC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\StudentC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:50:53 --> syntax error, unexpected token "=", expecting ")"
+in APPPATH\Controllers\StudentC.php on line 77.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\StudentC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\StudentC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\StudentC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\StudentC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:51:49 --> Invalid file: enrolledCoursesView.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('enrolledCoursesView.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('enrolledCoursesView', [], true)
+ 3 APPPATH\Controllers\StudentC.php(81): view('enrolledCoursesView', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 02:58:33 --> Invalid file: enrolledCoursesView.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('enrolledCoursesView.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('enrolledCoursesView', [], true)
+ 3 APPPATH\Controllers\StudentC.php(82): view('enrolledCoursesView', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->enrolledCourses()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:28:41 --> Undefined variable $enrolledCourses
+in APPPATH\Views\Users\Student\enrolledCoursesView.php on line 44.
+ 1 APPPATH\Views\Users\Student\enrolledCoursesView.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $enrolledCourses', 'APPPATH\\Views\\Users\\Student\\enrolledCoursesView.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Student\\enrolledCoursesView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Student/enrolledCoursesView', [], true)
+ 5 APPPATH\Controllers\StudentC.php(92): view('Users/Student/enrolledCoursesView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->openCourse()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:29:31 --> Undefined variable $course
+in APPPATH\Views\Users\Student\courseModule.php on line 44.
+ 1 APPPATH\Views\Users\Student\courseModule.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $course', 'APPPATH\\Views\\Users\\Student\\courseModule.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Student\\courseModule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Student/courseModule', [], true)
+ 5 APPPATH\Controllers\StudentC.php(92): view('Users/Student/courseModule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->openCourse()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:34:59 --> Undefined variable $modules
+in APPPATH\Views\Users\Student\courseModule.php on line 39.
+ 1 APPPATH\Views\Users\Student\courseModule.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modules', 'APPPATH\\Views\\Users\\Student\\courseModule.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Student\\courseModule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Student/courseModule', [], true)
+ 5 APPPATH\Controllers\StudentC.php(90): view('Users/Student/courseModule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->openCourse()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:37:31 --> Undefined variable $courseId
+in APPPATH\Views\Users\Student\courseModule.php on line 43.
+ 1 APPPATH\Views\Users\Student\courseModule.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Student\\courseModule.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Student\\courseModule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Student/courseModule', [], true)
+ 5 APPPATH\Controllers\StudentC.php(90): view('Users/Student/courseModule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->openCourse()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:06:36 --> Undefined variable $course
+in APPPATH\Views\Users\Student\courseModule.php on line 55.
+ 1 APPPATH\Views\Users\Student\courseModule.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $course', 'APPPATH\\Views\\Users\\Student\\courseModule.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Student\\courseModule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Student/courseModule', [], true)
+ 5 APPPATH\Controllers\StudentC.php(91): view('Users/Student/courseModule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->openCourse()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:10:53 --> Undefined variable $courses
+in APPPATH\Views\welcome_message.php on line 33.
+ 1 APPPATH\Views\welcome_message.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courses', 'APPPATH\\Views\\welcome_message.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->logout()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:11:43 --> Undefined variable $courses
+in APPPATH\Views\welcome_message.php on line 33.
+ 1 APPPATH\Views\welcome_message.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courses', 'APPPATH\\Views\\welcome_message.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->logout()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:21:34 --> Class "App\Controllers\Modules" not found
+in APPPATH\Controllers\Home.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->courseViewLogout()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:26:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 31.
+ 1 APPPATH\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->UHome()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:26:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 31.
+ 1 APPPATH\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->UHome()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:27:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\StudentC.php on line 50.
+ 1 APPPATH\Controllers\StudentC.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\StudentC.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\StudentC->cEnroll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:38:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 31.
+ 1 APPPATH\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 31)
+ 2 APPPATH\Controllers\Home.php(157): App\Controllers\Home->UHome()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->courseViewLogout()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:38:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 31.
+ 1 APPPATH\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 31)
+ 2 APPPATH\Controllers\Home.php(157): App\Controllers\Home->UHome()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->courseViewLogout()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

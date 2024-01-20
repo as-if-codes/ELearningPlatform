@@ -1,0 +1,42 @@
+CRITICAL - 2023-11-20 02:33:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InstructorC.php on line 13.
+ 1 APPPATH\Controllers\InstructorC.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\InstructorC.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->Insights()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 02:34:45 --> Call to undefined function connectToDatabase()
+in APPPATH\Views\Users\Instructor\Insights.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/insights', [], true)
+ 4 APPPATH\Controllers\InstructorC.php(49): view('Users/Instructor/insights', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->Insights()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 02:44:07 --> Undefined variable $availableCourses
+in APPPATH\Views\Users\Instructor\Insights.php on line 28.
+ 1 APPPATH\Views\Users\Instructor\Insights.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $availableCourses', 'APPPATH\\Views\\Users\\Instructor\\Insights.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\Insights.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/insights', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(49): view('Users/Instructor/insights', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->Insights()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 04:26:31 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 293.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-20 04:30:21 --> Undefined variable $availableCourses
+in APPPATH\Views\Users\Instructor\Insights.php on line 28.
+ 1 APPPATH\Views\Users\Instructor\Insights.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $availableCourses', 'APPPATH\\Views\\Users\\Instructor\\Insights.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\Insights.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/insights', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(48): view('Users/Instructor/insights', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->Insights()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

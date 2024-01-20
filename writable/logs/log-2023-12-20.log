@@ -1,0 +1,31 @@
+ERROR - 2023-12-20 10:26:58 --> mysqli_sql_exception: Duplicate entry 'Artificial Itelligence and Machine Learning' for key 'course_title' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Co...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\MyJobPortal\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\MyJobPortal\app\Controllers\Home.php(167): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\Home->addCourse()
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-12-20 10:31:51 --> mysqli_sql_exception: Duplicate entry 'sagar@gmail1.com' for key 'email_2' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Us...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Us...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Us...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\MyJobPortal\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\MyJobPortal\app\Controllers\Home.php(220): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\Home->uRegister()
+#10 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}

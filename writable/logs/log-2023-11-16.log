@@ -1,0 +1,142 @@
+CRITICAL - 2023-11-16 00:44:52 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 00:45:51 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 00:45:55 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 00:45:59 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 00:46:05 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 00:47:08 --> Class "App\Controllers\CoursesModel" not found
+in APPPATH\Controllers\InstructorC.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->Insights()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 00:49:42 --> Invalid file: instructor/insights.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('instructor/insights.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('instructor/insights', [], true)
+ 3 APPPATH\Controllers\InstructorC.php(47): view('instructor/insights', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->Insights()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 00:53:38 --> Undefined array key "student_name"
+in APPPATH\Views\Users\Instructor\Insights.php on line 38.
+ 1 APPPATH\Views\Users\Instructor\Insights.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "student_name"', 'APPPATH\\Views\\Users\\Instructor\\Insights.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\Insights.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/insights', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(47): view('Users/Instructor/insights', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->Insights()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 01:07:08 --> Undefined array key "course"
+in APPPATH\Views\Users\Instructor\Insights.php on line 32.
+ 1 APPPATH\Views\Users\Instructor\Insights.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "course"', 'APPPATH\\Views\\Users\\Instructor\\Insights.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\Insights.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/insights', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(47): view('Users/Instructor/insights', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->Insights()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 01:08:31 --> Undefined variable $insights
+in APPPATH\Views\Users\Instructor\Insights.php on line 47.
+ 1 APPPATH\Views\Users\Instructor\Insights.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insights', 'APPPATH\\Views\\Users\\Instructor\\Insights.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\Insights.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/insights', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(47): view('Users/Instructor/insights', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->Insights()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 01:10:52 --> Undefined array key "enrollment_id"
+in APPPATH\Views\Users\Instructor\Insights.php on line 49.
+ 1 APPPATH\Views\Users\Instructor\Insights.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "enrollment_id"', 'APPPATH\\Views\\Users\\Instructor\\Insights.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\Insights.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/insights', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(47): view('Users/Instructor/insights', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->Insights()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 01:17:20 --> Undefined array key "courseInsights"
+in APPPATH\Controllers\InstructorC.php on line 48.
+ 1 APPPATH\Controllers\InstructorC.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "courseInsights"', 'APPPATH\\Controllers\\InstructorC.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->Insights()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 01:20:03 --> Undefined array key "enrollment_id"
+in APPPATH\Views\Users\Instructor\Insights.php on line 29.
+ 1 APPPATH\Views\Users\Instructor\Insights.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "enrollment_id"', 'APPPATH\\Views\\Users\\Instructor\\Insights.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\Insights.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/insights', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(51): view('Users/Instructor/insights', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->Insights()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 00:39:03 --> Undefined variable $courses
+in APPPATH\Views\welcome_message.php on line 32.
+ 1 APPPATH\Views\welcome_message.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courses', 'APPPATH\\Views\\welcome_message.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(230): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->uRegister()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 00:39:05 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\InstructorC.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\InstructorC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\InstructorC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\InstructorC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\InstructorC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

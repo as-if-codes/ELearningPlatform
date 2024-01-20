@@ -1,0 +1,679 @@
+CRITICAL - 2023-11-13 03:33:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->UHome()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:33:27 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->UHome()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:34:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->UHome()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:34:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->UHome()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:34:30 --> Call to undefined function App\Controllers\controller()
+in APPPATH\Controllers\InstructorC.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addCourse()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:40:56 --> Class "App\Controllers\Courses" not found
+in APPPATH\Controllers\Home.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->addCourse()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:05:21 --> Invalid file: iCourses.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('iCourses.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('iCourses', [], true)
+ 3 APPPATH\Controllers\InstructorC.php(16): view('iCourses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:06:07 --> Invalid file: iCourses.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('iCourses.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('iCourses', [], true)
+ 3 APPPATH\Controllers\InstructorC.php(16): view('iCourses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:06:37 --> Invalid file: Instructor/iCourses.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Instructor/iCourses.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Instructor/iCourses', [], true)
+ 3 APPPATH\Controllers\InstructorC.php(16): view('Instructor/iCourses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:06:40 --> Invalid file: Instructor/iCourses.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Instructor/iCourses.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Instructor/iCourses', [], true)
+ 3 APPPATH\Controllers\InstructorC.php(16): view('Instructor/iCourses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:06:41 --> Invalid file: Instructor/iCourses.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Instructor/iCourses.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Instructor/iCourses', [], true)
+ 3 APPPATH\Controllers\InstructorC.php(16): view('Instructor/iCourses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:06:49 --> Invalid file: Instructor/iCourses.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Instructor/iCourses.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Instructor/iCourses', [], true)
+ 3 APPPATH\Controllers\InstructorC.php(16): view('Instructor/iCourses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:12:09 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(931): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Views\Users\Instructor\iCourses.php(28): session()
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iCourses.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iCourses', [], true)
+13 APPPATH\Controllers\InstructorC.php(16): view('Users/Instructor/iCourses', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:12:26 --> Undefined variable $user
+in APPPATH\Views\Users\Instructor\iCourses.php on line 34.
+ 1 APPPATH\Views\Users\Instructor\iCourses.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Users\\Instructor\\iCourses.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iCourses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iCourses', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(16): view('Users/Instructor/iCourses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:03:33 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:03:33 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:03:34 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:03:34 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:03:39 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:03:39 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:03:41 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:03:41 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:03:42 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:03:42 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:04:31 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:04:31 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:06:08 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:06:08 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:06:14 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:06:14 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\InstructorC.php(17): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:07:03 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:07:03 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\InstructorC.php(18): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:07:05 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:07:05 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\InstructorC.php(18): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:07:05 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:07:05 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\InstructorC.php(18): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:08:22 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:08:22 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\InstructorC.php(18): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:20:52 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\Users\Instructor\iCourses.php on line 45.
+ 1 APPPATH\Views\Users\Instructor\iCourses.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\Users\\Instructor\\iCourses.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iCourses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iCourses', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(19): view('Users/Instructor/iCourses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:21:29 --> Undefined property: App\Controllers\Home::$UHome
+in APPPATH\Controllers\InstructorC.php on line 22.
+ 1 APPPATH\Controllers\InstructorC.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$UHome', 'APPPATH\\Controllers\\InstructorC.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:07:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InstructorC.php on line 13.
+ 1 APPPATH\Controllers\InstructorC.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\InstructorC.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:35:17 --> Unmatched ')'
+in APPPATH\Views\Users\Instructor\iCourses.php on line 48.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iCourses', [], true)
+ 3 APPPATH\Controllers\InstructorC.php(19): view('Users/Instructor/iCourses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:02:37 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xampp\htdocs\MyJobPortal\app\Controllers\InstructorC.php on line 30
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\InstructorC.php(30): view('Users/Instructor/iModules', '34')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModule()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:31:15 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(931): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Views\Users\Instructor\iModules.php(27): session()
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+13 APPPATH\Controllers\InstructorC.php(36): view('Users/Instructor/iModules')
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:31:16 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 481111328 bytes)
+in SYSTEMPATH\ThirdParty\Escaper\Escaper.php on line 183.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-13 03:35:41 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 44.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(36): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:36:30 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 44.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(36): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:38:08 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 39.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(35): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:38:32 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 39.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(35): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:41:42 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 39.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(35): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:41:43 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 39.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(35): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:41:46 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 39.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(35): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:41:46 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 39.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(35): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:43:02 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 45.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(35): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:43:03 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 45.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(35): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:11:19 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 45.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(35): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:04:51 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 45.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(35): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:11:19 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 45.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(35): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:12:40 --> Undefined variable $courseId
+in APPPATH\Views\Users\Instructor\iModules.php on line 33.
+ 1 APPPATH\Views\Users\Instructor\iModules.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courseId', 'APPPATH\\Views\\Users\\Instructor\\iModules.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\Instructor\\iModules.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Users/Instructor/iModules', [], true)
+ 5 APPPATH\Controllers\InstructorC.php(35): view('Users/Instructor/iModules')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:26:54 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH\Controllers\InstructorC.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\InstructorC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\InstructorC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\InstructorC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\InstructorC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:43:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InstructorC.php on line 13.
+ 1 APPPATH\Controllers\InstructorC.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\InstructorC.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->viewCourses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:02:22 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:02:45 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:02:46 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:02:47 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 04:04:02 --> mysqli_sql_exception: MySQL server has gone away in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\MyJobPortal\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\MyJobPortal\app\Controllers\Home.php(85): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\Home->uLogin()
+#8 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-13 04:04:02 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 250.
+ 1 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Home.php(85): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->uLogin()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:00:23 --> Undefined variable $moduleOrder
+in APPPATH\Controllers\InstructorC.php on line 48.
+ 1 APPPATH\Controllers\InstructorC.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $moduleOrder', 'APPPATH\\Controllers\\InstructorC.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InstructorC->addModules()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstructorC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 04:06:08 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\InstructorC.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\InstructorC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\InstructorC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\InstructorC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\InstructorC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
