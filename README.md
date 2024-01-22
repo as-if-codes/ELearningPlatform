@@ -12,6 +12,34 @@ The E-Learning Platform is a web application developed using PHP (CodeIgniter) a
 - Responsive and intuitive user interface.
 - Integration with XAMPP for MySQL database management.
 
+
+- **HOMEPAGE**
+  ![HOMEPAGE](SS/Screenshot_1.jpg)
+
+- **LOGIN**
+  ![LOGIN](SS/Screenshot_2.jpg)
+
+- **REGISTER**
+  ![REGISTER](SS/Screenshot_3.jpg)
+
+- **STUDENT DASHBOARD**
+  ![DASHBOARD](SS/Screenshot_4.jpg)
+
+- **ENROLLED COURSES**
+  ![COURSES](SS/Screenshot_5.jpg)
+
+- **CHANGE PASSWORD**
+  ![PASSWORD](SS/Screenshot_6.jpg)
+
+- **ADD COURSE**
+  ![ADD COURSE](SS/Screenshot_7.jpg)
+
+- **ADD MODULE**
+  ![ADD MODULE](SS/Screenshot_8.jpg)
+
+- **INSIGHTS**
+  ![INSIGHTS](SS/Screenshot_9.jpg)
+  
 ## Technologies Used
 
 - PHP (CodeIgniter)
