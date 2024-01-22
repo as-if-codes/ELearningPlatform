@@ -63,6 +63,10 @@ The E-Learning Platform is a web application developed using PHP (CodeIgniter) a
 5. Enjoy an interactive learning experience.
 6. View students records in insight section.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Contributing
 
 Contributions are welcome! Feel free to submit issues or pull requests.
