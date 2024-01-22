@@ -50,7 +50,7 @@ The E-Learning Platform is a web application developed using PHP (CodeIgniter) a
 ## Setup Instructions
 
 1. Clone the repository to your local machine.
-2. Import the database (`ELearningDB.sql`). Email for database file.
+2. Import the database (`eLearning.sql`). Email for database file.
 3. Configure the database settings in CodeIgniter (`application/config/database.php`).
 4. Run the application using a local server (e.g., XAMPP).
 
